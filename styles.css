@@ -10,7 +10,7 @@ body {
 }
 
 .sky {
-  height: 40%;
+  height: 50%;
 }
 .sky > div {
   height: 20%;
@@ -33,7 +33,6 @@ body {
 }
 
 .sea {
-  /* height: 30%; */
   background-color: dodgerblue;
   text-align: center;
   padding: 1px;
@@ -48,4 +47,15 @@ body {
 .move-up {
   position: relative;
   bottom: 0.4em;
+}
+
+.sun {
+  width: 100px;
+  display: inline-block;
+  background-color: gold;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px yellow, -10px -10px 10px yellow, 10px -10px 10px yellow, -10px 10px 10px yellow;
+  position: relative;
+  left: 80%;
+  top: 30%;
 }
